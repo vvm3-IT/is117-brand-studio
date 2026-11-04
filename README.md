@@ -2,7 +2,7 @@
 
 Quiet Reps expresses quiet dedication to training: “A quiet reminder to show up and put in the work.” The first branded storefront uses the learner-selected layered direction, soft sage and lavender, an original one-color SVG logo, and a matching live style guide.
 
-**BRAND-001 is in review, not merged or published.** [Issue #1](https://github.com/vvm3-IT/is117-brand-studio/issues/1). Decisions and honest verification limits are in [SPEC.md](SPEC.md). The AI-drafted [LEARNING.md](LEARNING.md) still needs learner review before its new excerpts are committed. No public deployment is claimed.
+**BRAND-001 is in review, not merged or published.** [Issue #1](https://github.com/vvm3-IT/is117-brand-studio/issues/1) · [BRAND-001 pull request #2](https://github.com/vvm3-IT/is117-brand-studio/pull/2). Decisions and honest verification limits are in [SPEC.md](SPEC.md). The revised [LEARNING.md](LEARNING.md) summary was reviewed by the learner. No public deployment is claimed.
 
 Local pages: storefront `/`, live guide `/styleguide.html`, and matched hero explorations `/explorations/modernist.html` and `/explorations/postmodernist.html`. The white shirt, sizes, fictional $28 demo price and temporary bag remain; no orders or payment are collected.
 
