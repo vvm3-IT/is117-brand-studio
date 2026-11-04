@@ -1,18 +1,17 @@
 /* Shared brand tokens. Change these after you agree on your brand direction.
    Both the storefront and the live style guide use this file. */
 :root {
-  --color-paper: #f6f5f0;
-  --color-ink: #171a18;
-  --color-muted: #5a615b;
-  --color-line: #d1d5cc;
-  --color-accent: #e3ef56;
-  --color-soft: #e8eae1;
+  --color-paper: #f3f0e9;
+  --color-ink: #253b37;
+  --color-muted: #52645d;
+  --color-line: #c5ceca;
+  --color-accent: #dce0ed;
+  --color-soft: #d9e2df;
   --color-white: #fff;
   --color-danger: #992e28;
   --font-body:
     system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
-  --font-display:
-    system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
+  --font-display: georgia, "Times New Roman", serif;
   --font-mono: ui-monospace, sfmono-regular, consolas, monospace;
   --space-1: 0.5rem;
   --space-2: 1rem;
@@ -265,6 +264,9 @@ p + p {
 .product-visual {
   position: relative;
   background: var(--color-soft);
+  transform: rotate(-2deg);
+  border: 9px solid var(--color-paper);
+  box-shadow: 12px 12px 0 var(--color-accent);
 }
 
 .visual-label {
@@ -307,6 +309,7 @@ p + p {
 
 .product-information h1 {
   margin-top: 1.6rem;
+  font-size: clamp(3.5rem, 5.5vw, 6.5rem);
 }
 
 .product-intro {
@@ -769,7 +772,7 @@ legend {
 
 .logo-mono {
   width: 190px;
-  filter: brightness(0);
+  filter: none;
 }
 
 .logo-variant p,
@@ -1293,5 +1296,104 @@ legend {
   *::after {
     transition: none !important;
     animation: none !important;
+  }
+}
+
+/* Quiet Reps: layered calm, shared by storefront and live guide. */
+
+.product-information h1,
+.type-display,
+.page-hero h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.055em;
+}
+
+.ritual-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  padding-block: 4rem;
+  border-top: 1px solid var(--color-line);
+}
+
+.ritual-section h2,
+.brand-story h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2.3rem, 4vw, 4rem);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.ritual-section .eyebrow,
+.brand-story .eyebrow {
+  margin-bottom: 1.5rem;
+}
+
+.intention-panel {
+  background: var(--color-soft);
+  padding: 2rem;
+}
+
+.intention-panel label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.intention-panel select {
+  font: inherit;
+  width: 100%;
+  padding: 0.8rem;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  border: 1px solid var(--color-muted);
+}
+
+#intention-message {
+  margin-block: 1.5rem;
+}
+
+.intention-panel .field-help {
+  margin-top: 1rem;
+}
+
+.brand-story {
+  padding: 3rem 2rem;
+  background: var(--color-accent);
+  margin-bottom: 4rem;
+}
+
+.brand-story p {
+  max-width: 650px;
+  margin-bottom: 1.5rem;
+}
+
+@media (width <= 760px) {
+  .product-visual {
+    transform: rotate(-1deg);
+    width: calc(100% - 12px);
+    margin-bottom: 1rem;
+    box-shadow: 6px 6px 0 var(--color-accent);
+  }
+
+  .product-information h1 {
+    font-size: clamp(3.4rem, 13vw, 5rem);
+  }
+
+  .ritual-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-block: 2.5rem;
+  }
+
+  .intention-panel {
+    padding: 1.3rem;
+  }
+
+  .decision-grid .undecided {
+    overflow-wrap: anywhere;
   }
 }

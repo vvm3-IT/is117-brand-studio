@@ -1,10 +1,12 @@
-# IS117 Brand Studio
+# Quiet Reps — IS117 Brand Studio
 
-**The same white T-shirt can carry very different meanings.** Develop a brand for it with an AI collaborator, then make those decisions visible in a professional website and a live style guide.
+Quiet Reps expresses quiet dedication to training: “A quiet reminder to show up and put in the work.” The first branded storefront uses the learner-selected layered direction, soft sage and lavender, an original one-color SVG logo, and a matching live style guide.
 
-This template starts with a working, deliberately neutral storefront. Your audience, name, promise, logo, voice, and visual direction are **not chosen yet**. You make the decisions; the agent helps you explore, build, check, and revise them.
+**BRAND-001 is in review, not merged or published.** [Issue #1](https://github.com/vvm3-IT/is117-brand-studio/issues/1). Decisions and honest verification limits are in [SPEC.md](SPEC.md). The AI-drafted [LEARNING.md](LEARNING.md) still needs learner review before its new excerpts are committed. No public deployment is claimed.
 
-**A short record, visible to you:** your AI coach updates [LEARNING.md](LEARNING.md) with brief task-related explanations, observations and help received. It is AI-drafted, not a full transcript, and may be public with your repository. Review it and correct or remove excerpts before they are committed or pushed. Your instructor uses it alongside the project with this [simple three-part rubric](docs/assessment.md); the AI does not assign your grade.
+Local pages: storefront `/`, live guide `/styleguide.html`, and matched hero explorations `/explorations/modernist.html` and `/explorations/postmodernist.html`. The white shirt, sizes, fictional $28 demo price and temporary bag remain; no orders or payment are collected.
+
+AI assistance supplied research, options, SVG artwork, implementation and checks. Audience assumptions are hypotheses. The learner chose Quiet Reps, the promise and voice, soft colors and the layered shirt treatment. Personal branded-site browser observations remain pending.
 
 ## Start here
 

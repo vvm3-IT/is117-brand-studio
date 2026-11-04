@@ -117,3 +117,49 @@ for (const route of ["/", "/styleguide.html", "/studio.html"]) {
     await expect(page.getByRole("main")).toBeVisible();
   });
 }
+
+test("an optional intention updates encouragement without adding a shirt or blocking the bag", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page
+    .getByLabel("What are you showing up for?")
+    .selectOption("Stay consistent");
+  await expect(page.locator("#intention-message")).toContainText(
+    "Your intention: Stay consistent",
+  );
+  await expect(page.locator("#bag-count")).toHaveText("0");
+  await page.getByLabel("What are you showing up for?").selectOption("");
+  await expect(page.locator("#intention-message")).toContainText(
+    "change it anytime",
+  );
+  await page.locator('input[name="size"][value="M"]').check();
+  await page
+    .getByRole("button", { name: "Add to demo bag", exact: true })
+    .click();
+  await expect(page.locator("#bag-count")).toHaveText("1");
+});
+
+test("hero explorations hold the product, headline, support, and action constant", async ({
+  page,
+}) => {
+  const variants = [];
+  for (const route of ["modernist", "postmodernist"]) {
+    await page.goto(`/explorations/${route}.html`);
+    variants.push({
+      headline: await page.locator("h1").innerText(),
+      support: await page.locator(".support").innerText(),
+      action: await page.locator(".action").innerText(),
+      destination: await page.locator(".action").getAttribute("href"),
+      shirt: await page.locator(".product img").getAttribute("src"),
+    });
+    await page.setViewportSize({ width: 375, height: 812 });
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    ).toBeTruthy();
+    await expect(page.locator(".action")).toBeVisible();
+  }
+  expect(variants[0]).toEqual(variants[1]);
+});

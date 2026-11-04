@@ -5,33 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="An unfinished, neutral T-shirt storefront for the IS117 Brand Studio. Build a brand through deliberate, visible design choices."
+      content="Quiet Reps: a quiet reminder to show up and put in the work. A white T-shirt classroom demo for quiet dedication."
     />
-    <title>Your Brand — neutral storefront starter</title>
+    <title>Quiet Reps — Show up. Put in the reps.</title>
     <link rel="icon" href="data:," />
     <link rel="stylesheet" href="styles.css" />
     <script src="shop.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <aside class="starter-notice" aria-label="Starter information">
-      <span
-        ><strong>Unfinished by design.</strong> This is a neutral teaching
-        starter. Replace its identity after your brand decisions.</span
-      >
-      <a href="studio.html"
-        >Enter the studio <span aria-hidden="true">↗</span></a
-      >
+    <aside class="starter-notice" aria-label="Demo information">
+      <span>Quiet dedication. Daily effort.</span
+      ><span>Classroom demo · no orders or payments</span>
     </aside>
     <header class="site-header wrap">
       <a
         class="brand-link"
         href="index.html"
-        aria-label="Your Brand storefront home"
+        aria-label="Quiet Reps storefront home"
         ><img
           class="wordmark"
           src="assets/wordmark.svg"
-          alt="Neutral starter wordmark"
+          alt="Quiet Reps wordmark"
           width="175"
           height="26"
       /></a>
@@ -51,7 +46,7 @@
       <section class="product-section wrap" aria-labelledby="product-title">
         <div class="product-visual">
           <div class="visual-label">
-            <span>001 / The starting point</span><span>Unbranded</span>
+            <span>QR / 001</span><span>Quiet Reps</span>
           </div>
           <img
             class="shirt-image"
@@ -62,21 +57,22 @@
             fetchpriority="high"
           />
           <div class="image-caption">
-            <span>One product. Room for your point of view.</span
+            <span>Quiet Reps — a study in showing up.</span
             ><span aria-hidden="true">↙</span>
           </div>
         </div>
         <div class="product-information">
           <p class="eyebrow">
-            <span class="status-dot" aria-hidden="true"></span> Neutral product
+            <span class="status-dot" aria-hidden="true"></span> Quiet dedication
             / demo only
           </p>
-          <h1 id="product-title">The white<br />T-shirt.</h1>
-          <p class="product-intro">A plain shirt. A place to begin.</p>
+          <h1 id="product-title">Show up.<br />Put in the reps.</h1>
+          <p class="product-intro">
+            A quiet reminder to show up and put in the work.
+          </p>
           <p class="muted product-description">
-            This starter has a working product page and room for a brand. Its
-            audience, personality, message, and visual direction are still yours
-            to decide.
+            For the effort that doesn’t need an audience. A plain white T-shirt,
+            given meaning by the intention you bring to it.
           </p>
           <div class="price-row">
             <p class="price">$28 <span>USD</span></p>
@@ -129,11 +125,11 @@
             </div>
             <div>
               <dt>Brand identity</dt>
-              <dd>Not decided yet</dd>
+              <dd>Quiet Reps</dd>
             </div>
             <div>
               <dt>Product claims</dt>
-              <dd>None supplied</dd>
+              <dd>No performance claims</dd>
             </div>
           </dl>
         </div>
@@ -168,29 +164,54 @@
         </div>
       </section>
 
-      <section class="starter-next wrap" aria-labelledby="next-title">
-        <p class="eyebrow">For the person building this site</p>
-        <h2 id="next-title">The shirt stays.<br />The story is your work.</h2>
+      <section class="ritual-section wrap" aria-labelledby="ritual-title">
         <div>
+          <p class="eyebrow">A moment before the work</p>
+          <h2 id="ritual-title">Set your intention.<br />Keep it quiet.</h2>
           <p>
-            Choose who this is for, decide what the brand should express, and
-            make those choices visible. Keep the storefront and its
-            <a href="styleguide.html">live style guide</a> in sync.
+            A small ritual, yours to use with or without this shirt: pause, name
+            one reason to show up, and carry that thought into your session.
           </p>
-          <a class="button button-secondary" href="studio.html"
-            >See the studio brief <span aria-hidden="true">↗</span></a
-          >
+          <p>No purchase, sign-up, or personal information needed.</p>
         </div>
+        <div class="intention-panel">
+          <label for="training-intention"
+            >What are you showing up for?
+            <span class="field-help">Optional</span></label
+          ><select id="training-intention">
+            <option value="">Choose an intention</option>
+            <option value="Stay consistent">Stay consistent</option>
+            <option value="Make time for myself">Make time for myself</option>
+            <option value="Keep learning">Keep learning</option>
+          </select>
+          <p id="intention-message" role="status" aria-live="polite">
+            Your reason can be simple. You can change it anytime.
+          </p>
+          <a class="button button-secondary" href="#product-form"
+            >Explore the shirt <span aria-hidden="true">↗</span></a
+          >
+          <p class="field-help">
+            An optional reminder, never a requirement. Choosing an intention
+            doesn’t add anything to your bag.
+          </p>
+        </div>
+      </section>
+      <section class="brand-story wrap" aria-labelledby="story-title">
+        <p class="eyebrow">The Quiet Reps mindset</p>
+        <h2 id="story-title">Effort, without the noise.</h2>
+        <p>
+          Quiet dedication leaves room for different starting points. Whether
+          training is familiar or you’re finding your rhythm, the message is the
+          same: show up for your own reason.
+        </p>
+        <a href="styleguide.html">Explore the identity ↗</a>
       </section>
     </main>
 
     <footer class="site-footer wrap">
-      <p>
-        IS117 Brand Studio <span class="footer-separator"> / </span> Neutral
-        starter
-      </p>
+      <p>Quiet Reps <span class="footer-separator"> / </span> Show up.</p>
       <p class="footer-tagline">Fictional product. Real design decisions.</p>
-      <a href="https://github.com/kaw393939/is117-brand-studio#readme"
+      <a href="https://github.com/vvm3-IT/is117-brand-studio#readme"
         >Project README <span aria-hidden="true">↗</span></a
       >
     </footer>

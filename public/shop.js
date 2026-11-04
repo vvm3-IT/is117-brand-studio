@@ -59,3 +59,15 @@
     form.querySelector('input[name="size"]:checked')?.focus();
   });
 })();
+
+// A voluntary intention is separate from size selection and bag state.
+(() => {
+  const choice = document.querySelector("#training-intention");
+  const message = document.querySelector("#intention-message");
+  if (!choice || !message) return;
+  choice.addEventListener("change", () => {
+    message.textContent = choice.value
+      ? `Your intention: ${choice.value}. Carry that thought into your next session. If you want a physical reminder, explore the shirt. No purchase is needed to keep your intention.`
+      : "Your reason can be simple. You can change it anytime.";
+  });
+})();

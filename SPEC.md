@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Baseline ready to try; brand decisions pending.
+- Stage: Storefront and guide reviewed; automated browser verification and feature PR pending.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Pending learner scope agreement.
-- Next small decision: Confirm the first slice after trying the neutral storefront.
+- Status: Scope agreed; work on `feat/BRAND-001`.
+- Next step: Review the implemented site, checks, and local learning record before keeping the feature.
 
 ## Product boundary
 
@@ -19,24 +19,26 @@ The product is the same white T-shirt throughout the comparison. The baseline of
 
 The primary need guides the page. Give the secondary card one contrasting need to check that same page; keep both cards brief.
 
-| Tiny card                             | Primary audience          | Secondary audience        |
-| ------------------------------------- | ------------------------- | ------------------------- |
-| Person in a concrete situation        | Not chosen yet            | Not chosen yet            |
-| Goal or meaning they seek             | Not chosen yet            | Not chosen yet            |
-| Concern before choosing               | Not chosen yet            | Not chosen yet            |
-| What the page should help them decide | Not chosen yet            | Not chosen yet            |
-| Evidence or assumption                | Assumption; not validated | Assumption; not validated |
+| Tiny card                             | Primary audience                                                | Secondary audience                                                          |
+| ------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Person in a concrete situation        | Bodybuilder going to the gym                                    | Beginner going to the gym                                                   |
+| Goal or meaning they seek             | Quiet dedication; let consistent effort speak                   | Motivation to keep showing up                                               |
+| Concern before choosing               | Not chosen yet                                                  | Not chosen yet                                                              |
+| What the page should help them decide | Whether the brand reflects quiet dedication (AI interpretation) | Whether the brand feels encouraging (AI interpretation)                     |
+| Evidence or assumption                | Learner hypothesis; not validated research                      | AI-proposed situation; learner suggested motivation; not validated research |
 
 ## Early brand brief
 
-| Decision                                 | Agreement      |
-| ---------------------------------------- | -------------- |
-| Brand name                               | Not chosen yet |
-| One-sentence promise                     | Not chosen yet |
-| Primary archetype: the brand's character | Not chosen yet |
-| Three voice traits                       | Not chosen yet |
-| One example line in this voice           | Not chosen yet |
-| Learner's predicted audience effect      | Not chosen yet |
+| Decision                                 | Agreement                                                                                        |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Brand name                               | Quiet Reps                                                                                       |
+| One-sentence promise                     | A quiet reminder to show up and put in the work.                                                 |
+| Primary archetype: the brand's character | Hero — effort, courage, improvement; AI-proposed and accepted                                    |
+| Three voice traits                       | Calm, determined, encouraging; AI-proposed and accepted                                          |
+| One example line in this voice           | Show up. Put in the reps. (AI-proposed example)                                                  |
+| Learner's predicted audience effect      | “it would give a very chill vibe”                                                                |
+| Visual preference                        | Softer colors; exact palette and layout not chosen yet                                           |
+| Agreed optional interaction              | Choose a training intention, such as “Stay consistent”; learner reason: “it would motivate them” |
 
 ## Visual decision
 
@@ -44,25 +46,25 @@ Compare two small hero previews before building the whole page. Hold the product
 
 A simple original SVG wordmark is enough. Show small-size and one-color presentations; they may use the same asset when it works.
 
-| Item                                              | Agreement or evidence |
-| ------------------------------------------------- | --------------------- |
-| Shared headline / support / action                | Not chosen yet        |
-| Modernist preview, reference, and annotations     | Not chosen yet        |
-| Postmodernist preview, reference, and annotations | Not chosen yet        |
-| Chosen direction and reason                       | Not chosen yet        |
-| Original SVG logo                                 | Not chosen yet        |
-| Monochrome and small-size variants                | Not chosen yet        |
-| Logo review at actual use size                    | Not checked yet       |
-| Shared palette, typography, spacing, and assets   | Not chosen yet        |
+| Item                                        | Agreement or evidence                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Shared headline / support / action          | Show up. Put in the reps. / A quiet reminder to show up and put in the work. / Choose your size                                                                                                                                                                                                                                   |
+| Modernist preview                           | [Preview](public/explorations/modernist.html); Josef Müller-Brockmann, Musica Viva, 1958, [MoMA](https://www.moma.org/collection/works/7233/). Museum image inspected; geometric field, repeated squares, compact type. Grid, repeated marks and flat fields adapted; annotations and risks accompany preview.                    |
+| Postmodernist preview                       | [Preview](public/explorations/postmodernist.html); Wolfgang Weingart, The Swiss Poster 1900–1984, 1983, [LACMA](https://collections.lacma.org/object/207620). Museum image inspected; overlapping halftone fields, mixed forms and type. Layered paper treatment and mixed type adapted; annotations and risks accompany preview. |
+| Chosen direction and reason                 | Learner selected the second (postmodernist) preview and identified the layered shirt as the preferred detail. Audience-benefit explanation not supplied; do not infer it from preference.                                                                                                                                         |
+| Original SVG logo                           | [Wordmark](public/assets/wordmark.svg): AI-created Q and repeated bars with Quiet Reps type; learner review pending. No trademark clearance claimed.                                                                                                                                                                              |
+| Monochrome and small-size presentations     | Shared single-color SVG at 110px and 190px in the live guide; header at 150px, mobile at 130px.                                                                                                                                                                                                                                   |
+| Logo review                                 | Agent inspected header and guide variants; learner review pending.                                                                                                                                                                                                                                                                |
+| Shared palette, typography, spacing, assets | [Shared CSS](public/styles.css), Georgia display, system sans-serif body, warm paper, sage and lavender; original white-shirt asset retained. Softer colors agreed; exact values and implementation supplied by AI.                                                                                                               |
 
 ## Ethical persuasion
 
-Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation and mechanism rather than a principle name alone. Required size selection or validation alone does not establish consistency. Do not invent social proof, scarcity, authority, or product facts.
+These are AI-proposed implementations, not independently chosen learner explanations or proven conversion outcomes. The learner approved a voluntary intention chooser and said it would motivate visitors.
 
-| Principle      | Actual copy or interaction | Visitor benefit / factual support |
-| -------------- | -------------------------- | --------------------------------- |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
+| Principle                  | Actual copy or interaction                                                                                                      | Visitor benefit / factual support                                                                                                            |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reciprocity                | Free pre-session ritual: pause, name one reason to show up, carry that thought into the session.                                | Offers a small tool without purchase, sign-up, or personal information. Usefulness is a hypothesis.                                          |
+| Commitment and consistency | Optional intention selector and response carrying the chosen intention forward, with shirt exploration as an optional reminder. | A voluntary prior intention precedes the invitation; selection never adds an item. Required size selection is not counted as this principle. |
 
 ## BRAND-001 — first branded storefront and live style guide
 
@@ -82,9 +84,9 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
-| --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | Not changed yet | Not created yet | Not run yet; learner observations pending |
+| Spec ID   | Files                                                                                                                                                        | Issue / PR                                                                                            | Actual checks and observations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BRAND-001 | public/index.html; public/styleguide.html; public/styles.css; public/assets/wordmark.svg; public/shop.js; public/explorations/; tests/browser/studio.spec.js | [Issue #1](https://github.com/vvm3-IT/is117-brand-studio/issues/1); branch feat/BRAND-001; PR pending | Formatting and lint pass; 7/7 server tests pass. Browser tests could not launch in the app sandbox (Chromium MachPortRendezvousServer permission denied); no browser-test assertions claimed passed. Agent inspected storefront, guide and studio at desktop and 375px widths, plus logo variants. Direct browser checks: no-size submission showed guidance and kept count 0; choosing M added exactly one item; choosing an intention updated the message and left count 1. These direct checks do not replace the prepared browser suite. Learner approved the revised LEARNING.md summary. Learner reported successful keyboard size selection/add-to-bag and said everything looked good in mobile view. Learner approved the overall appearance; keep layout based on those reports. Test discussion: learner answered “idk”; assistant explained that private project-file requests should return 404 rather than disclose contents. Independent test interpretation not evidenced. No PR or merge yet. |
 
 ## Later
 
