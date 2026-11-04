@@ -2,11 +2,11 @@
 
 Quiet Reps expresses quiet dedication to training: “A quiet reminder to show up and put in the work.” The first branded storefront uses the learner-selected layered direction, soft sage and lavender, an original one-color SVG logo, and a matching live style guide.
 
-**BRAND-001 is in review, not merged or published.** [Issue #1](https://github.com/vvm3-IT/is117-brand-studio/issues/1) · [BRAND-001 pull request #2](https://github.com/vvm3-IT/is117-brand-studio/pull/2). Decisions and honest verification limits are in [SPEC.md](SPEC.md). The revised [LEARNING.md](LEARNING.md) summary was reviewed by the learner. No public deployment is claimed.
+**BRAND-001 was merged into main through pull request #2.** [Issue #1](https://github.com/vvm3-IT/is117-brand-studio/issues/1) · [BRAND-001 pull request #2](https://github.com/vvm3-IT/is117-brand-studio/pull/2). Decisions and honest verification limits are in [SPEC.md](SPEC.md). The revised [LEARNING.md](LEARNING.md) summary was reviewed by the learner. No public deployment is claimed.
 
 Local pages: storefront `/`, live guide `/styleguide.html`, and matched hero explorations `/explorations/modernist.html` and `/explorations/postmodernist.html`. The white shirt, sizes, fictional $28 demo price and temporary bag remain; no orders or payment are collected.
 
-AI assistance supplied research, options, SVG artwork, implementation and checks. Audience assumptions are hypotheses. The learner chose Quiet Reps, the promise and voice, soft colors and the layered shirt treatment. Personal branded-site browser observations remain pending.
+AI assistance supplied research, options, SVG artwork, implementation and checks. Audience assumptions are hypotheses. The learner chose Quiet Reps, the promise and voice, soft colors and the layered shirt treatment. The learner reported successful keyboard size selection and adding to the bag, and a satisfactory mobile view.
 
 ## Start here
 
@@ -58,7 +58,7 @@ You work at your own pace. There is no required class demonstration, quiz, separ
 
 | File                                   | Purpose                                                                                                    |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `public/index.html`                    | Working storefront; the first branding feature is still pending                                            |
+| `public/index.html`                    | Quiet Reps storefront with size selector and demo bag                                            |
 | `public/styleguide.html`               | Live identity board using the storefront's shared styles and assets                                        |
 | `public/studio.html`                   | Short studio overview, also [available online](https://kaw393939.github.io/is117-brand-studio/studio.html) |
 | [SPEC.md](SPEC.md)                     | The concise record of your chosen decisions and evidence                                                   |
